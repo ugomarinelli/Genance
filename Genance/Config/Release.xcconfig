@@ -1,0 +1,14 @@
+//
+//  Release.xcconfig
+//  Genance
+//
+//  Created by Ugo Marinelli on 10/05/2020.
+//  Copyright © 2020 Ugo Marinelli. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+BASE_URL = https:/$()/this-or-that.eu-gb.cf.appdomain.cloud/
+API_KEY = jesuisunpetilutun

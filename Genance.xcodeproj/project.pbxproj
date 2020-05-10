@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0FD7E32468148E00FEDD1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD7E22468148E00FEDD1E /* AppDelegate.swift */; };
+		EF0FD7E52468148E00FEDD1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD7E42468148E00FEDD1E /* SceneDelegate.swift */; };
+		EF0FD7E82468148E00FEDD1E /* Genance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD7E62468148E00FEDD1E /* Genance.xcdatamodeld */; };
+		EF0FD7EC2468149000FEDD1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0FD7EB2468149000FEDD1E /* Assets.xcassets */; };
+		EF0FD7EF2468149000FEDD1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0FD7EE2468149000FEDD1E /* Preview Assets.xcassets */; };
+		EF0FD7F22468149000FEDD1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0FD7F02468149000FEDD1E /* LaunchScreen.storyboard */; };
+		EF0FD7FD2468149100FEDD1E /* GenanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD7FC2468149100FEDD1E /* GenanceTests.swift */; };
+		EF0FD8082468149100FEDD1E /* GenanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD8072468149100FEDD1E /* GenanceUITests.swift */; };
+		EF0FD8172468150000FEDD1E /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD8162468150000FEDD1E /* Story.swift */; };
+		EF0FD8192468150C00FEDD1E /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD8182468150C00FEDD1E /* Choice.swift */; };
+		EF0FD81C2468179000FEDD1E /* StoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD81B2468179000FEDD1E /* StoryService.swift */; };
+		EF0FD81E2468180E00FEDD1E /* URLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD81D2468180E00FEDD1E /* URLService.swift */; };
+		EF0FD82324681BDC00FEDD1E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FD82224681BDC00FEDD1E /* Environment.swift */; };
+		EF85B37D24682FB00085AAC4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B37C24682FB00085AAC4 /* HomeView.swift */; };
+		EF85B382246831720085AAC4 /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B381246831720085AAC4 /* HomeState.swift */; };
+		EF85B384246832420085AAC4 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B383246832420085AAC4 /* HomePresenter.swift */; };
+		EF85B387246867780085AAC4 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B386246867780085AAC4 /* ProgressBar.swift */; };
+		EF85B38A24687D840085AAC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B38924687D840085AAC4 /* Constants.swift */; };
+		EF85B38D24687E140085AAC4 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B38C24687E140085AAC4 /* Color+Extension.swift */; };
+		EF85B38F246888180085AAC4 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B38E246888180085AAC4 /* View+Extension.swift */; };
+		EF85B394246888E30085AAC4 /* ChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B393246888E30085AAC4 /* ChoicesView.swift */; };
+		EF85B39624688A660085AAC4 /* ChoicesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B39524688A660085AAC4 /* ChoicesPresenter.swift */; };
+		EF85B39824688A760085AAC4 /* ChoicesState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF85B39724688A760085AAC4 /* ChoicesState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF0FD7F92468149100FEDD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0FD7D72468148E00FEDD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0FD7DE2468148E00FEDD1E;
+			remoteInfo = Genance;
+		};
+		EF0FD8042468149100FEDD1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0FD7D72468148E00FEDD1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0FD7DE2468148E00FEDD1E;
+			remoteInfo = Genance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF0FD7DF2468148E00FEDD1E /* Genance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Genance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0FD7E22468148E00FEDD1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF0FD7E42468148E00FEDD1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF0FD7E72468148E00FEDD1E /* Genance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Genance.xcdatamodel; sourceTree = "<group>"; };
+		EF0FD7EB2468149000FEDD1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF0FD7EE2468149000FEDD1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF0FD7F12468149000FEDD1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF0FD7F32468149000FEDD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0FD7F82468149100FEDD1E /* GenanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0FD7FC2468149100FEDD1E /* GenanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenanceTests.swift; sourceTree = "<group>"; };
+		EF0FD7FE2468149100FEDD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0FD8032468149100FEDD1E /* GenanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0FD8072468149100FEDD1E /* GenanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenanceUITests.swift; sourceTree = "<group>"; };
+		EF0FD8092468149100FEDD1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0FD8162468150000FEDD1E /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		EF0FD8182468150C00FEDD1E /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		EF0FD81B2468179000FEDD1E /* StoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryService.swift; sourceTree = "<group>"; };
+		EF0FD81D2468180E00FEDD1E /* URLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLService.swift; sourceTree = "<group>"; };
+		EF0FD82024681A8000FEDD1E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		EF0FD82124681A9300FEDD1E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		EF0FD82224681BDC00FEDD1E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		EF85B37C24682FB00085AAC4 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../Views/HomeView.swift; sourceTree = "<group>"; };
+		EF85B381246831720085AAC4 /* HomeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
+		EF85B383246832420085AAC4 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		EF85B386246867780085AAC4 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		EF85B38924687D840085AAC4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF85B38C24687E140085AAC4 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		EF85B38E246888180085AAC4 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		EF85B393246888E30085AAC4 /* ChoicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesView.swift; sourceTree = "<group>"; };
+		EF85B39524688A660085AAC4 /* ChoicesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesPresenter.swift; sourceTree = "<group>"; };
+		EF85B39724688A760085AAC4 /* ChoicesState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0FD7DC2468148E00FEDD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0FD7F52468149100FEDD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0FD8002468149100FEDD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0FD7D62468148E00FEDD1E = {
+			isa = PBXGroup;
+			children = (
+				EF0FD7E12468148E00FEDD1E /* Genance */,
+				EF0FD7FB2468149100FEDD1E /* GenanceTests */,
+				EF0FD8062468149100FEDD1E /* GenanceUITests */,
+				EF0FD7E02468148E00FEDD1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF0FD7E02468148E00FEDD1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0FD7DF2468148E00FEDD1E /* Genance.app */,
+				EF0FD7F82468149100FEDD1E /* GenanceTests.xctest */,
+				EF0FD8032468149100FEDD1E /* GenanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0FD7E12468148E00FEDD1E /* Genance */ = {
+			isa = PBXGroup;
+			children = (
+				EF85B37E246831030085AAC4 /* Home */,
+				EF85B392246888CC0085AAC4 /* Choices */,
+				EF85B385246867660085AAC4 /* View */,
+				EF85B38B24687DFC0085AAC4 /* Extensions */,
+				EF85B38824687AD30085AAC4 /* Resources */,
+				EF0FD81F24681A4600FEDD1E /* Config */,
+				EF0FD81A2468175A00FEDD1E /* Services */,
+				EF0FD815246814B700FEDD1E /* Models */,
+				EF0FD7E22468148E00FEDD1E /* AppDelegate.swift */,
+				EF0FD7E42468148E00FEDD1E /* SceneDelegate.swift */,
+				EF0FD7EB2468149000FEDD1E /* Assets.xcassets */,
+				EF0FD7F02468149000FEDD1E /* LaunchScreen.storyboard */,
+				EF0FD7F32468149000FEDD1E /* Info.plist */,
+				EF0FD7E62468148E00FEDD1E /* Genance.xcdatamodeld */,
+				EF0FD7ED2468149000FEDD1E /* Preview Content */,
+			);
+			path = Genance;
+			sourceTree = "<group>";
+		};
+		EF0FD7ED2468149000FEDD1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF0FD7EE2468149000FEDD1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF0FD7FB2468149100FEDD1E /* GenanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0FD7FC2468149100FEDD1E /* GenanceTests.swift */,
+				EF0FD7FE2468149100FEDD1E /* Info.plist */,
+			);
+			path = GenanceTests;
+			sourceTree = "<group>";
+		};
+		EF0FD8062468149100FEDD1E /* GenanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0FD8072468149100FEDD1E /* GenanceUITests.swift */,
+				EF0FD8092468149100FEDD1E /* Info.plist */,
+			);
+			path = GenanceUITests;
+			sourceTree = "<group>";
+		};
+		EF0FD815246814B700FEDD1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF0FD8162468150000FEDD1E /* Story.swift */,
+				EF0FD8182468150C00FEDD1E /* Choice.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF0FD81A2468175A00FEDD1E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF0FD81B2468179000FEDD1E /* StoryService.swift */,
+				EF0FD81D2468180E00FEDD1E /* URLService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EF0FD81F24681A4600FEDD1E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				EF0FD82024681A8000FEDD1E /* Debug.xcconfig */,
+				EF0FD82124681A9300FEDD1E /* Release.xcconfig */,
+				EF0FD82224681BDC00FEDD1E /* Environment.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		EF85B37E246831030085AAC4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EF85B37C24682FB00085AAC4 /* HomeView.swift */,
+				EF85B381246831720085AAC4 /* HomeState.swift */,
+				EF85B383246832420085AAC4 /* HomePresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EF85B385246867660085AAC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF85B386246867780085AAC4 /* ProgressBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF85B38824687AD30085AAC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF85B38924687D840085AAC4 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF85B38B24687DFC0085AAC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF85B38C24687E140085AAC4 /* Color+Extension.swift */,
+				EF85B38E246888180085AAC4 /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EF85B392246888CC0085AAC4 /* Choices */ = {
+			isa = PBXGroup;
+			children = (
+				EF85B393246888E30085AAC4 /* ChoicesView.swift */,
+				EF85B39524688A660085AAC4 /* ChoicesPresenter.swift */,
+				EF85B39724688A760085AAC4 /* ChoicesState.swift */,
+			);
+			path = Choices;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0FD7DE2468148E00FEDD1E /* Genance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0FD80C2468149100FEDD1E /* Build configuration list for PBXNativeTarget "Genance" */;
+			buildPhases = (
+				EF0FD7DB2468148E00FEDD1E /* Sources */,
+				EF0FD7DC2468148E00FEDD1E /* Frameworks */,
+				EF0FD7DD2468148E00FEDD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genance;
+			productName = Genance;
+			productReference = EF0FD7DF2468148E00FEDD1E /* Genance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF0FD7F72468149100FEDD1E /* GenanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0FD80F2468149100FEDD1E /* Build configuration list for PBXNativeTarget "GenanceTests" */;
+			buildPhases = (
+				EF0FD7F42468149100FEDD1E /* Sources */,
+				EF0FD7F52468149100FEDD1E /* Frameworks */,
+				EF0FD7F62468149100FEDD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0FD7FA2468149100FEDD1E /* PBXTargetDependency */,
+			);
+			name = GenanceTests;
+			productName = GenanceTests;
+			productReference = EF0FD7F82468149100FEDD1E /* GenanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF0FD8022468149100FEDD1E /* GenanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0FD8122468149100FEDD1E /* Build configuration list for PBXNativeTarget "GenanceUITests" */;
+			buildPhases = (
+				EF0FD7FF2468149100FEDD1E /* Sources */,
+				EF0FD8002468149100FEDD1E /* Frameworks */,
+				EF0FD8012468149100FEDD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0FD8052468149100FEDD1E /* PBXTargetDependency */,
+			);
+			name = GenanceUITests;
+			productName = GenanceUITests;
+			productReference = EF0FD8032468149100FEDD1E /* GenanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0FD7D72468148E00FEDD1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ugo Marinelli";
+				TargetAttributes = {
+					EF0FD7DE2468148E00FEDD1E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EF0FD7F72468149100FEDD1E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EF0FD7DE2468148E00FEDD1E;
+					};
+					EF0FD8022468149100FEDD1E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EF0FD7DE2468148E00FEDD1E;
+					};
+				};
+			};
+			buildConfigurationList = EF0FD7DA2468148E00FEDD1E /* Build configuration list for PBXProject "Genance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF0FD7D62468148E00FEDD1E;
+			productRefGroup = EF0FD7E02468148E00FEDD1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0FD7DE2468148E00FEDD1E /* Genance */,
+				EF0FD7F72468149100FEDD1E /* GenanceTests */,
+				EF0FD8022468149100FEDD1E /* GenanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0FD7DD2468148E00FEDD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0FD7F22468149000FEDD1E /* LaunchScreen.storyboard in Resources */,
+				EF0FD7EF2468149000FEDD1E /* Preview Assets.xcassets in Resources */,
+				EF0FD7EC2468149000FEDD1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0FD7F62468149100FEDD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0FD8012468149100FEDD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0FD7DB2468148E00FEDD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85B37D24682FB00085AAC4 /* HomeView.swift in Sources */,
+				EF85B38D24687E140085AAC4 /* Color+Extension.swift in Sources */,
+				EF0FD8192468150C00FEDD1E /* Choice.swift in Sources */,
+				EF0FD7E82468148E00FEDD1E /* Genance.xcdatamodeld in Sources */,
+				EF0FD7E32468148E00FEDD1E /* AppDelegate.swift in Sources */,
+				EF85B394246888E30085AAC4 /* ChoicesView.swift in Sources */,
+				EF0FD82324681BDC00FEDD1E /* Environment.swift in Sources */,
+				EF0FD81C2468179000FEDD1E /* StoryService.swift in Sources */,
+				EF85B39824688A760085AAC4 /* ChoicesState.swift in Sources */,
+				EF85B38F246888180085AAC4 /* View+Extension.swift in Sources */,
+				EF85B39624688A660085AAC4 /* ChoicesPresenter.swift in Sources */,
+				EF85B382246831720085AAC4 /* HomeState.swift in Sources */,
+				EF85B38A24687D840085AAC4 /* Constants.swift in Sources */,
+				EF0FD81E2468180E00FEDD1E /* URLService.swift in Sources */,
+				EF0FD7E52468148E00FEDD1E /* SceneDelegate.swift in Sources */,
+				EF0FD8172468150000FEDD1E /* Story.swift in Sources */,
+				EF85B387246867780085AAC4 /* ProgressBar.swift in Sources */,
+				EF85B384246832420085AAC4 /* HomePresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0FD7F42468149100FEDD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0FD7FD2468149100FEDD1E /* GenanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0FD7FF2468149100FEDD1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0FD8082468149100FEDD1E /* GenanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF0FD7FA2468149100FEDD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0FD7DE2468148E00FEDD1E /* Genance */;
+			targetProxy = EF0FD7F92468149100FEDD1E /* PBXContainerItemProxy */;
+		};
+		EF0FD8052468149100FEDD1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0FD7DE2468148E00FEDD1E /* Genance */;
+			targetProxy = EF0FD8042468149100FEDD1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF0FD7F02468149000FEDD1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0FD7F12468149000FEDD1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0FD80A2468149100FEDD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0FD82024681A8000FEDD1E /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF0FD80B2468149100FEDD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0FD82124681A9300FEDD1E /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0FD80D2468149100FEDD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0FD82024681A8000FEDD1E /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Genance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Genance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugo.Genance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF0FD80E2468149100FEDD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0FD82124681A9300FEDD1E /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Genance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Genance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugo.Genance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF0FD8102468149100FEDD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0FD82024681A8000FEDD1E /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GenanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugo.GenanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genance.app/Genance";
+			};
+			name = Debug;
+		};
+		EF0FD8112468149100FEDD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0FD82124681A9300FEDD1E /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GenanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugo.GenanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Genance.app/Genance";
+			};
+			name = Release;
+		};
+		EF0FD8132468149100FEDD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0FD82024681A8000FEDD1E /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GenanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugo.GenanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Genance;
+			};
+			name = Debug;
+		};
+		EF0FD8142468149100FEDD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0FD82124681A9300FEDD1E /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GenanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugo.GenanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Genance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0FD7DA2468148E00FEDD1E /* Build configuration list for PBXProject "Genance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0FD80A2468149100FEDD1E /* Debug */,
+				EF0FD80B2468149100FEDD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0FD80C2468149100FEDD1E /* Build configuration list for PBXNativeTarget "Genance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0FD80D2468149100FEDD1E /* Debug */,
+				EF0FD80E2468149100FEDD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0FD80F2468149100FEDD1E /* Build configuration list for PBXNativeTarget "GenanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0FD8102468149100FEDD1E /* Debug */,
+				EF0FD8112468149100FEDD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0FD8122468149100FEDD1E /* Build configuration list for PBXNativeTarget "GenanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0FD8132468149100FEDD1E /* Debug */,
+				EF0FD8142468149100FEDD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF0FD7E62468148E00FEDD1E /* Genance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF0FD7E72468148E00FEDD1E /* Genance.xcdatamodel */,
+			);
+			currentVersion = EF0FD7E72468148E00FEDD1E /* Genance.xcdatamodel */;
+			path = Genance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF0FD7D72468148E00FEDD1E /* Project object */;
+}
